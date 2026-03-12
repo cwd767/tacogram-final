@@ -23,5 +23,6 @@ group :development do
 end
 
 # # production gems go here
-# group :production do
-# end
+group :production do
+  gem "pg"
+end
